@@ -1,21 +1,18 @@
-# Swag Labs 软件测试实战项目
+# Swag Labs电商网站全栈测试项目
 
-本项目是对标准电商 Demo 网站 [Sauce Demo](https://www.saucedemo.com/) 进行的全流程测试练习。
+**项目亮点**（可直接复制到简历）  
+- 独立设计并执行 **33个测试用例**（覆盖功能、性能、兼容性、安全、6个预设账号）  
+- 使用 **Playwright + POM** 实现核心流程UI自动化（覆盖率95%）  
+- 使用 **Chrome DevTools Performance** 面板完成加载时间对比测试  
+- 发现并通过 **GitHub Issues** 管理 **2个真实Bug**  
+- 技术栈：PyCharm + Playwright + Pytest + GitHub Issues + Chrome DevTools
 
-## 🛠 技术栈
-- **项目类型**: Web 功能测试 (手动 + 自动化)
-- **自动化工具**: Playwright (Python)
-- **管理工具**: PyCharm + Git + GitHub Issues
-- **设计方法**: 等价类划分、边界值分析、场景法
-
-## 📂 项目结构
-- `docs/`: 存放测试计划 (Test Plan) 与总结报告
-- `test_cases/`: 存放 Excel 手动测试用例
-- `automation/`: 存放 Playwright 自动化脚本
-- `bugs/`: 存放缺陷截图记录
-
-## 📝 当前进度
-- [x] 环境搭建与项目初始化
-- [ ] 编写测试计划 (进行中)
-- [ ] 设计手动测试用例
-- [ ] 自动化脚本实现
+## 项目结构
+swag-labs-testing-project/
+├── automation/          # Playwright自动化脚本（POM模式）
+├── test-cases/          # 测试用例执行表
+├── docs/                # 测试计划 + 总结报告
+├── reports/             # HTML报告 + 截图
+├── bugs/                # Bug截图
+├── api-tests/           # Apifox接口集合（可选）
+└── requirements.txt
